@@ -299,26 +299,93 @@ nav {
 
 }
 
+
+/* --------------------------------- STATS --------------------*/
+
+
+.stats-rect {
+	padding: 20px;
+	text-align: center;
+	background-color: #D5F3FE;
+	color: white;
+	margin: auto;
+	height: 240px;
+	width: 100%;
+}
+
+.icon-card {
+	margin: auto;
+  	padding: 50px 80px 10px;
+	margin-top: 0px;
+}
+
+.icon-text {
+	margin-top: 30px;
+	color: black;
+	font-size: 24px;
+}
+
+.fa-user-tie, .fa-sack-dollar, .fa-phone-volume {
+	color: #192F7A;
+}
+
+
 /* --------------------------------- STUDY IN USA --------------------*/
 
 .study-in-america {
-	display: flex;
-	width: 70%;
+	width:80%;
 	margin: auto;
+	text-align: center;
+	padding-top: 50px;
+	margin-bottom: 40px;
+	margin-top: 60px;
 }
 
-.study-in-america-content p {
-	display: block;
-	margin-right: 20px;
-	float: left;
-	padding: 20px 60px;
-}
-
-.study-in-america-content img {
-	float: right;
-	width: 80%;
-	margin-right: 100px;
-	display: inline-block;
-	
+.study-container {
+	margin-bottom: 10px;
 	position: relative;
 }
+
+.study-container-text {
+	width: 550px;
+	padding: 40px 0px 0px 0px;
+	font-size: 24px;
+	margin-left: 140px;
+}
+
+.study-container-text h2 {
+	margin-bottom: 30px;
+}
+
+.study-container img {
+	width: 70%;
+	display: block;
+	box-shadow: 0 6px 8px 0 rgba(0, 0, 0, 0.4);
+	float: right;
+	margin-right: 60px;
+	
+}
+
+.study-in-america button {
+	display: block;
+	text-decoration: none;
+	color: #fff;
+	padding: 12px 30px;
+	background: #192F7A;
+	cursor: pointer;
+	align-items: center;
+	font-family: 'DM Sans', sans-serif;
+	margin: auto;
+	border: #fff;
+	font-size: 16px;
+	margin-bottom: 10px;
+	width: 60%;
+	margin-top: 30px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3);
+}
+
+
+
+
+
+
