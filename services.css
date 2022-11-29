@@ -223,12 +223,12 @@ nav {
 	font-family: 'DM Sans', sans-serif;
 }
 
-.services-header p {
+.services-header h1 {
 	text-align: center;
 	margin-top: 40px;
 	margin-bottom: 50px;
 	font-family: 'DM Sans', sans-serif;
-	font-size: 36px;
+	font-size: 50px;
 	font-weight: 600;
 }
 
@@ -315,18 +315,29 @@ nav {
 
 .icon-card {
 	margin: auto;
-  	padding: 50px 80px 10px;
-	margin-top: 0px;
+  	padding: 40px 0px 10px;
+}
+
+.icon-card h1 {
+	font-size: 90px;
+	color: #192F7A;
 }
 
 .icon-text {
-	margin-top: 30px;
-	color: black;
+	color: #192F7A;
 	font-size: 24px;
 }
 
-.fa-user-tie, .fa-sack-dollar, .fa-phone-volume {
-	color: #192F7A;
+@media(max-width: 700px) {
+	.stats-rect {
+	padding: 20px;
+	text-align: center;
+	background-color: #D5F3FE;
+	color: white;
+	margin: auto;
+	height: 650px;
+	width: 100%;
+}
 }
 
 
@@ -384,8 +395,324 @@ nav {
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3);
 }
 
+@media(max-width: 700px) {
+	.study-in-america {
+	width:100%;
+	height: 100%;
+	margin: auto;
+	text-align: center;
+	padding-top: 50px;
+	margin-bottom: 40px;
+	margin-top: 60px;
+}
+.study-container-text {
+	width: 450px;
+	padding: 40px 0px 0px 0px;
+	font-size: 24px;
+	margin: auto;
+	margin-bottom: 30px;
+}
+
+.study-container img {
+	width: 90%;
+	display: block;
+	box-shadow: 0 6px 8px 0 rgba(0, 0, 0, 0.4);
+	float: none;
+	margin: auto;
+}
+
+}
+
+
+/*------------------- testimonials ------------------ */
+
+.testimonials {
+	width: 80%;
+	margin: auto;
+	padding-top: 80px;
+	text-align: center;
+	margin-bottom: 40px;
+}
+
+.testimonials-col {
+	flex-basis: 31%;
+	border-radius: 10px;
+	margin-bottom: 5%;
+	text-align: left;
+	background: #D5F3FE;
+	padding: 20px 12px;
+	display: flex;
+	width: 30px;
+	box-sizing: border-box;
+	transition: 0.5s;
+	margin-left: 30px;
+	margin-top: 20px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+/*
+.testimonials-col {
+	flex-basis: 31%;
+	background: #D5F3FE;
+	border-radius: 10px;
+	margin-bottom: 5%;
+	padding: 20px 12px;
+	box-sizing: border-box;
+	transition: 0.5s;
+}
+*/
+
+.testimonials h1 {
+	font-size: 50px;
+	margin-bottom: 20px;
+}
 
 
 
 
+.testimonials-col img {
+	height: 40px;
+	margin-left: 15px;
+	margin-right: 10px;
+	border-radius: 50%;
+	position: relative;
+	float: left;
+}
 
+.testimonials-col p {
+	padding: 0;
+	text-align: justify;
+	margin-left: 10px;
+	margin-right: 15px;
+	font-family: 'Roboto', sans-serif;
+	font-family: 'Rubik', sans-serif;
+	
+}
+
+.testimonials-col h3 {
+	margin-top: 15px;
+	text-align: left;
+	margin-left: 10px;
+	margin-bottom: 10px;
+}
+
+.stars {
+	color: #f44336;
+	margin-left: 10px;
+}
+
+
+@media(max-width: 700px) {
+	.testimonials {
+	width: 80%;
+	padding-top: 80px;
+	text-align: center;
+	margin-bottom: 40px;
+	
+}
+	
+	.testimonials-col img {
+	margin-left: 0px;
+	margin-right: 15px;
+	}
+	.testimonials-col {
+	flex-basis: 31%;
+	border-radius: 10px;
+	margin-bottom: 5%;
+	text-align: left;
+	background: #D5F3FE;
+	padding: 20px 12px;
+	cursor: pointer;
+	display: flex;
+	width: 100%;
+	box-sizing: border-box;
+	margin-left: 0px;
+	}
+}
+
+/*------------------------ CALL TO CONSULTATION ----------------------*/
+
+.consultation {
+	display: flex;
+	margin: auto;
+	width: 70%;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+	padding: 20px 0px 20px 15px;
+	border-radius: 10px;
+}
+
+.consultation-card:first-of-type {
+	margin: auto;
+	padding: 0 15px 0 20px;
+	min-width: 300px;
+	margin-left: 10px;
+}
+
+.consultation-card {
+	padding: 0 15px 0 20px;
+	margin-right: 40px;
+}
+
+
+.consultation-card p {
+	font-size: 28px;
+	font-weight: 500;
+}
+
+.consultation img {
+	width: 80px;
+	border-radius: 75%;
+	height: 80px;
+	margin: auto;
+	margin-left: 30px;
+}
+
+.consultation button {
+	display: block;
+	text-decoration: none;
+	color: #fff;
+	padding: 12px 30px;
+	background: #192F7A;
+	cursor: pointer;
+	align-items: center;
+	font-family: 'DM Sans', sans-serif;
+	margin: auto;
+	border: #fff;
+	font-size: 16px;
+	width: 30%;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3);
+	margin-right: 40px;
+	margin-left: 40px;
+}
+
+@media(max-width: 700px) {
+	.consultation {
+	display: block;
+	height: 500px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+	padding: 50px 0px;
+	border-radius: 10px;
+}
+
+.consultation img {
+	width: 100px;
+	border-radius: 75%;
+	height: 100px;
+	margin-left: 120px;
+	
+}
+.consultation-card:first-of-type {
+	margin: auto;
+	padding: 0 15px 0 20px;
+	min-width: 300px;
+	margin-left: 10px;
+	margin-top: 20px;
+}
+
+	.consultation-card {
+	text-align: center;
+	font-family: 'DM Sans', sans-serif;
+	font-size: 18px;
+	padding: 30px 5px 0 50px;
+	justify-content: center;
+	display: block;
+	margin-top: 20px;
+	
+}
+
+.consultation button {
+	display: block;
+	text-decoration: none;
+	color: #fff;
+	padding: 12px 30px;
+	background: #192F7A;
+	cursor: pointer;
+	align-items: center;
+	font-family: 'DM Sans', sans-serif;
+	margin: auto;
+	border: #fff;
+	font-size: 16px;
+	width: 70%;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3);
+	margin: auto;
+	margin-top: 30px;
+}
+
+	
+
+}
+
+/* ----------------------------- Footer ------------------------------ */
+
+.footer {
+	width: 100%;
+	text-align: center;
+	padding: 25px 0;
+	background: #D5F3FE;
+	margin-top: 100px;
+}
+
+.footer ul li {
+	list-style: none;
+	display: inline-block;
+	margin: 0 20px;
+	position: relative;
+	font-family: 'DM Sans', sans-serif;
+	margin-bottom: 30px;
+}
+
+.footer ul li a {
+	text-decoration: none;
+	color: #444444;
+	text-transform: uppercase;
+	font-weight: 600;
+	font-family: 'DM Sans', sans-serif;
+}
+
+.footer ul li a::after {
+	content: '';
+	height: 3px;
+	width: 0%;
+	background: #f44336;
+	position: absolute;
+	left: 0;
+	bottom: -10px;
+	transition: 0.5s;
+}
+
+.footer ul li:hover::after {
+	width: 100%;
+}
+
+.footer h4 {
+	margin-bottom: 25px;
+	margin-top: 20px;
+	font-weight: 600;
+}
+
+.fa-facebook-f, .fa-instagram, .fa-twitter, .fa-linkedin-in, .fa-youtube {
+	color: #192F7A;
+	margin: 0 13px;
+	cursor: pointer;
+	padding: 18px 0;
+}
+
+.fa-heart {
+	color: #192F7A;
+}
+
+
+@media(max-width: 700px) {
+	.footer ul li {
+	list-style: none;
+	display: inline-block;
+	margin: 0 5px;
+	position: relative;
+	font-family: 'DM Sans', sans-serif;
+	margin-bottom: 30px;
+}
+
+
+
+
+}
